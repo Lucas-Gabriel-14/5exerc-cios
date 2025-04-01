@@ -22,7 +22,6 @@ class Circulo:
     def __str__(self):
         return f"P={self.perimetro()}, \nA={self.area()}"
 
-
 if __name__ == "__main__":
     c1 = Circulo((2, 2), 3)
     print(c1)
