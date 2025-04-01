@@ -20,7 +20,7 @@ def criar_domino():
     
 if __name__ == "__main__":
     pecas = []
-    
+
     while True:
         print("\nMenu Dominó:")
         print("1. Criar peça")
@@ -46,7 +46,8 @@ if __name__ == "__main__":
         elif opcao == "4":
             print("Fim do programa!")
             break
-        
+
+
         else:
             print("Opção inválida!")
 
