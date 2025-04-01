@@ -9,6 +9,7 @@ class Funcionario:
         self.data_admissao = data_adm   
         self.salario = salario
 
+
     def idade(self):
         ano_atual = datetime.datetime.now().year
         return ano_atual - self.data_nascimento[2]
