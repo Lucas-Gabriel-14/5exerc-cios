@@ -13,6 +13,7 @@ class Produto:
         else:
             print("Erro: O preço deve ser maior que zero.")
 
+
     def vender(self, quantidade):
         if quantidade <= self.__estoque:
             self.__estoque -= quantidade
