@@ -12,6 +12,7 @@ class ContaBancaria:
         else:
             self.__saldo -= valor
 
+
     def exibir_saldo(self):
         return f"{self.__saldo:.2f}"
 
